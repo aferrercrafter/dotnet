@@ -1,6 +1,6 @@
 ## First Step
 
-Creating the app with dotnet cli
+### __Creating the app with dotnet cli__
 
 ``` [console]
 dotnet new blazorserver -o BlazorApp --no-https
@@ -25,7 +25,7 @@ Several files were created in the BlazorApp directory, to give you a simple Blaz
 
 ## Second Step 
 
-### Run your app
+### __Run your app__
 
 In your command prompt, run the following command:
 
@@ -86,7 +86,7 @@ Each time the Click me button is selected:
 
 ## Thirs Step
 
-### Add a component
+### __Add a component__
 
 Each of the `.razor` files defines a UI component that can be reused.
 
@@ -97,4 +97,11 @@ End the previous `dotnet run` command that is running the site locally, then run
 
 ## Forth Step
 
-### Modify a component
+### __Modify a component__
+
+Component parameters are specified using __attributes__ or __child content__, which allow you to set properties on the child component. Define a parameter on the Counter component for specifying how much it increments with every button click:
+
+- Add a public property for `IncrementAmount` with a `[Parameter]` attribute.
+- Change the `IncrementCount` method to use the `IncrementAmount` when incrementing the value of `currentCount`.
+- In `Index.razor`, update the `<Counter>` element to add an `IncrementAmount` attribute that changes the increment amount to ten.
+- Rerun the app. The `Index` component now has its own counter that increments by ten each time the __Click__ me button is selected. The Counter component (`Counter.razor`) at _/counter_ continues to increment by one.
