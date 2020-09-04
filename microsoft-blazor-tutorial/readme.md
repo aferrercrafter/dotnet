@@ -83,3 +83,14 @@ Each time the Click me button is selected:
 - The `IncrementCount` method is called.
 - The `currentCount` is incremented.
 - The `component` is rendered to show the updated count.
+
+## Thirs Step
+
+### Add a component
+
+Each of the `.razor` files defines a UI component that can be reused.
+
+Open `Pages/Index.razor` in a text editor of your choice. Add a Counter component to the app's homepage by adding a <Counter /> element at the end of the file.
+
+Re-run your app
+End the previous `dotnet run` command that is running the site locally, then run the following command to re-launch the site and Refresh the browser to see the change.
