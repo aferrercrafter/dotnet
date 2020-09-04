@@ -22,3 +22,29 @@ Several files were created in the BlazorApp directory, to give you a simple Blaz
 - `App.razor` is the root component for the app.
 - The `BlazorApp/Pages` directory contains some example web pages for the app.
 - `BlazorApp.csproj` defines the app project and its dependencies.
+
+## Second Step 
+
+Run your app
+
+In your command prompt, run the following command:
+
+``` [console]
+Copy
+dotnet run
+```
+Wait for the app to display that it's listening on http://localhost:5000 and then, open a browser and navigate to that address.
+
+The displayed page is defined by the Pages/Index.razor file.
+
+``` [html]
+@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+```
+
+It already contains the code that sets it as the homepage and displays the text "Hello, world!" and "Welcome to your new app". It also includes a `SurveyPrompt` component that renders a link to the Blazor feedback survey.
