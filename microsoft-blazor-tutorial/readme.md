@@ -13,7 +13,7 @@ cd BlazorApp
 - The `--no-https` flag specifies not to enable HTTPS.
 - The command `cd BlazorApp` changes your directory to the one you just created.
 
-## What files were created?
+### What files were created?
 
 Several files were created in the BlazorApp directory, to give you a simple Blazor app that is ready to run.
 
@@ -25,7 +25,7 @@ Several files were created in the BlazorApp directory, to give you a simple Blaz
 
 ## Second Step 
 
-Run your app
+### Run your app
 
 In your command prompt, run the following command:
 
@@ -48,3 +48,38 @@ Welcome to your new app.
 ```
 
 It already contains the code that sets it as the homepage and displays the text "Hello, world!" and "Welcome to your new app". It also includes a `SurveyPrompt` component that renders a link to the Blazor feedback survey.
+
+## Thirs Step
+
+### Understanding Counter Page
+
+the implementation of the Counter component at Pages/Counter.razor.
+
+@page "/counter"
+
+``` [csharp]
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
+``` 
+
+A request for `/counter` in the browser, as specified by the `@page` directive at the top, causes the `Counter` component to render its content.
+
+Each time the Click me button is selected:
+
+- The `onclick` event is fired.
+- The `IncrementCount` method is called.
+- The `currentCount` is incremented.
+- The `component` is rendered to show the updated count.
