@@ -1,0 +1,2 @@
+# blazor
+Blazor learning projects
