@@ -46,7 +46,9 @@ Each time the Click me button is selected:
 - The `currentCount` is incremented.
 - The `component` is rendered to show the updated count.
 
+##Blazor Web Assembly##
 
+##Blazor Web Components (Razor components)##
 
-
-Hola esteoy probando gil
+##Blazor PWA##
+https://docs.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-3.1&tabs=visual-studio
