@@ -60,9 +60,18 @@ Imagine all the people that are developing in Go, Swift, Rust, Ruby, C++, OCaml 
 From https://www.freecodecamp.org/news/webassembly-with-golang-is-fun-b243c0e34f02/
 
 ## Blazor Web Assembly ##
+Blazor WebAssembly is a single-page app framework for building interactive client-side web apps with .NET. Blazor WebAssembly uses open web standards without plugins or code transpilation and works in all modern web browsers, including mobile browsers.
+
+Running .NET code inside web browsers is made possible by WebAssembly (abbreviated wasm). WebAssembly is a compact bytecode format optimized for fast download and maximum execution speed. WebAssembly is an open web standard and supported in web browsers without plugins.
+
+WebAssembly code can access the full functionality of the browser via JavaScript, called JavaScript interoperability (or JavaScript interop). .NET code executed via WebAssembly in the browser runs in the browser's JavaScript sandbox with the protections that the sandbox provides against malicious actions on the client machine.
+
+https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly
 
 ## Blazor Web Components (Razor components) ##
+Blazor is based on a powerful and flexible component model for building rich interactive web UI. You implement Blazor UI components using a combination of .NET code and Razor syntax: an elegant melding of HTML and C#. Blazor components can seamlessly handle UI events, bind to user input, and efficiently render UI updates.
+
+Components are implemented in Razor component files (.razor) using a combination of C# and HTML markup. A component in Blazor is formally referred to as a Razor component.
 
 ## Blazor PWA ##
 https://docs.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-3.1&tabs=visual-studio
-
