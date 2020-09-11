@@ -46,13 +46,23 @@ Each time the Click me button is selected:
 - The `currentCount` is incremented.
 - The `component` is rendered to show the updated count.
 
-##What is WebAssembly##
-WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
+## What is WebAssembly ##
+WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications. 
+From https://webassembly.org/
 
-##Blazor Web Assembly##
+Think of WASM as the Universal Virtual Machine (sandbox), where you write ANY code once, and it runs everywhere.
 
-##Blazor Web Components (Razor components)##
+WASM is a compile target, not a language. As if you were to compile for Windows, Mac OS, and Linux at once!
 
-##Blazor PWA##
+I don’t think that WASM is about dethroning JS, it’s about having alternatives without any sacrifices.
+
+Imagine all the people that are developing in Go, Swift, Rust, Ruby, C++, OCaml or others. Now, they can use their preferred language to create an interactive, networked, fast, offline-capable websites and web apps.
+From https://www.freecodecamp.org/news/webassembly-with-golang-is-fun-b243c0e34f02/
+
+## Blazor Web Assembly ##
+
+## Blazor Web Components (Razor components) ##
+
+## Blazor PWA ##
 https://docs.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-3.1&tabs=visual-studio
 
