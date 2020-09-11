@@ -1,9 +1,9 @@
 
-### Blazor History
+## Blazor History
 
-### Blazor Server
+## Blazor Server
 
-## What files were created?
+### What files were created?
 
 Several files were created in the BlazorApp directory, to give you a simple Blazor app that is ready to run.
 
@@ -13,7 +13,7 @@ Several files were created in the BlazorApp directory, to give you a simple Blaz
 - The `BlazorApp/Pages` directory contains some example web pages for the app.
 - `BlazorApp.csproj` defines the app project and its dependencies.
 
-## Understanding Counter Page
+### Understanding Counter Page
 
 the implementation of the Counter component at Pages/Counter.razor.
 
