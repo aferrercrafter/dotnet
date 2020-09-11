@@ -46,6 +46,8 @@ Each time the Click me button is selected:
 - The `currentCount` is incremented.
 - The `component` is rendered to show the updated count.
 
+##What is WebAssembly##
+
 ##Blazor Web Assembly##
 
 ##Blazor Web Components (Razor components)##
