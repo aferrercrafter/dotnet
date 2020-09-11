@@ -47,6 +47,7 @@ Each time the Click me button is selected:
 - The `component` is rendered to show the updated count.
 
 ##What is WebAssembly##
+WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
 
 ##Blazor Web Assembly##
 
@@ -54,3 +55,4 @@ Each time the Click me button is selected:
 
 ##Blazor PWA##
 https://docs.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-3.1&tabs=visual-studio
+
