@@ -1,14 +1,19 @@
 
 ## Blazor History
 
+- Interactive web UI with C#
+- UI Components (Think in components)
+- Single-Page App (dynamically rewriting the current web page with new data from the web server, instead of the default method of the browser loading entire new pages.)
+- Open-source and free
+
 ## Blazor Server
 
 ### What files were created?
 
 Several files were created in the BlazorApp directory, to give you a simple Blazor app that is ready to run.
 
-- `Program.cs` is the entry point for the app that starts the server.
-- `Startup.cs` is where you configure the app services and middleware.
+- `Program.cs` is the entry point for the app that starts the server. Build and Run
+- `Startup.cs` is where you configure the app services and middleware. MapBlazorHub()
 - `App.razor` is the root component for the app.
 - The `BlazorApp/Pages` directory contains some example web pages for the app.
 - `BlazorApp.csproj` defines the app project and its dependencies.
